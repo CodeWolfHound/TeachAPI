@@ -1,0 +1,24 @@
+{
+    "students": [
+        {"name": "Alice", "grade": "A", "teacher": "Mr.John"},
+        {"name": "Wilson", "grade": "C", "teacher": "Mr.John"},
+        {"name": "Bob", "grade": "B", "teacher": "Mrs.Smith"},
+        {"name": "Carol", "grade": "A", "teacher": "Mrs.Smith"},
+        {"name": "Dave", "grade": "D", "teacher": "Mr.John"},
+        {"name": "Eve", "grade": "B", "teacher": "Mr.Brown"},
+        {"name": "Frank", "grade": "C", "teacher": "Mr.Brown"},
+        {"name": "Grace", "grade": "A", "teacher": "Mrs.Smith"},
+        {"name": "Henry", "grade": "B", "teacher": "Mr.John"},
+        {"name": "Isla", "grade": "A", "teacher": "Mr.Brown"},
+        {"name": "Jack", "grade": "C", "teacher": "Mrs.Smith"},
+        {"name": "Karen", "grade": "D", "teacher": "Mr.John"},
+        {"name": "Leo", "grade": "B", "teacher": "Mr.Brown"},
+        {"name": "Mia", "grade": "A", "teacher": "Mrs.Smith"},
+        {"name": "Noah", "grade": "C", "teacher": "Mr.John"},
+        {"name": "Olivia", "grade": "B", "teacher": "Mr.Brown"},
+        {"name": "Paul", "grade": "D", "teacher": "Mrs.Smith"},
+        {"name": "Quinn", "grade": "A", "teacher": "Mr.John"},
+        {"name": "Rachel", "grade": "C", "teacher": "Mr.Brown"},
+        {"name": "Sam", "grade": "B", "teacher": "Mrs.Smith"}
+    ]
+}
