@@ -7,9 +7,19 @@ with open('data.json') as f:
 app = Flask(__name__)
 
 @app.route("/")
-def Welcome():
+def myWelcome():
     return "<b>Welcome to the Teach API<b>"
 
-@app.route("/students")
-def Students():
-    return jsonify(data["students"])
+@app.route("/all")
+def getAll():
+    return jsonify(data["districts"])
+
+@app.route("/districts")
+def getDistrict():
+    name = request.args.get("name")
+
+    for district in data["districts"]:
+        if district["name"] == name:
+            return jsonify(district)
+
+    return "Please query a district name or confirm district is correct"
