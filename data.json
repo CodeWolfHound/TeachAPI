@@ -1,24 +1,70 @@
 {
-    "students": [
-        {"name": "Alice", "grade": "A", "teacher": "Mr.John"},
-        {"name": "Wilson", "grade": "C", "teacher": "Mr.John"},
-        {"name": "Bob", "grade": "B", "teacher": "Mrs.Smith"},
-        {"name": "Carol", "grade": "A", "teacher": "Mrs.Smith"},
-        {"name": "Dave", "grade": "D", "teacher": "Mr.John"},
-        {"name": "Eve", "grade": "B", "teacher": "Mr.Brown"},
-        {"name": "Frank", "grade": "C", "teacher": "Mr.Brown"},
-        {"name": "Grace", "grade": "A", "teacher": "Mrs.Smith"},
-        {"name": "Henry", "grade": "B", "teacher": "Mr.John"},
-        {"name": "Isla", "grade": "A", "teacher": "Mr.Brown"},
-        {"name": "Jack", "grade": "C", "teacher": "Mrs.Smith"},
-        {"name": "Karen", "grade": "D", "teacher": "Mr.John"},
-        {"name": "Leo", "grade": "B", "teacher": "Mr.Brown"},
-        {"name": "Mia", "grade": "A", "teacher": "Mrs.Smith"},
-        {"name": "Noah", "grade": "C", "teacher": "Mr.John"},
-        {"name": "Olivia", "grade": "B", "teacher": "Mr.Brown"},
-        {"name": "Paul", "grade": "D", "teacher": "Mrs.Smith"},
-        {"name": "Quinn", "grade": "A", "teacher": "Mr.John"},
-        {"name": "Rachel", "grade": "C", "teacher": "Mr.Brown"},
-        {"name": "Sam", "grade": "B", "teacher": "Mrs.Smith"}
-    ]
+  "districts": [
+    {
+      "name": "Northside ISD",
+      "teachers": [
+        {
+          "name": "Mr. Smith",
+          "subject": "Math",
+          "students": [
+            {"name": "Alice", "grade": 90},
+            {"name": "Bob", "grade": 78},
+            {"name": "Carol", "grade": 85}
+          ]
+        },
+        {
+          "name": "Ms. Johnson",
+          "subject": "English",
+          "students": [
+            {"name": "David", "grade": 92},
+            {"name": "Eva", "grade": 88}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Southside ISD",
+      "teachers": [
+        {
+          "name": "Mr. Garcia",
+          "subject": "Science",
+          "students": [
+            {"name": "Frank", "grade": 76},
+            {"name": "Grace", "grade": 95},
+            {"name": "Henry", "grade": 83}
+          ]
+        },
+        {
+          "name": "Ms. Lee",
+          "subject": "History",
+          "students": [
+            {"name": "Isla", "grade": 89},
+            {"name": "Jack", "grade": 72}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Eastside ISD",
+      "teachers": [
+        {
+          "name": "Mr. Patel",
+          "subject": "Math",
+          "students": [
+            {"name": "Karen", "grade": 91},
+            {"name": "Leo", "grade": 84}
+          ]
+        },
+        {
+          "name": "Ms. Brown",
+          "subject": "Science",
+          "students": [
+            {"name": "Mia", "grade": 79},
+            {"name": "Noah", "grade": 93},
+            {"name": "Olivia", "grade": 87}
+          ]
+        }
+      ]
+    }
+  ]
 }
